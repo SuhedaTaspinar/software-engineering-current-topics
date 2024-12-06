@@ -24,7 +24,7 @@ router.use((req, res, next) => {
 });
 
 // Login Sayfası
-router.get("/login", (req, res) => res.render("login"));
+router.get("/", (req, res) => res.render("login"));
 
 // Register Sayfası
 router.get("/register", (req, res) => res.render("register"));
@@ -57,7 +57,7 @@ router.post("/register", async (req, res) => {
 });
 
 // Login İşlemi
-router.post("/", async (req, res) => {
+router.post("/login", async (req, res) => {
     const { email, password } = req.body;
 
     if (!email || !password) {
