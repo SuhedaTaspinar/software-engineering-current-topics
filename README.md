@@ -11,7 +11,7 @@ This project aims to provide basic knowledge about prime numbers to children age
 ---
 
 ## Proje Linki / Project Link
-**Live URL:** [Prime Number AR](https://prime-number-ar.vercel.app/)
+**Live URL:** [Prime Number AR](https://software-engineering-current-topics.vercel.app/)
 ## Test User Giriş Bilgileri
 user email = test@example.com
 password = testPassword
