@@ -29,18 +29,6 @@
             </div>
             <!-- Login Form -->
             <form action="/login" method="POST">
-                <!-- Success Message -->
-                <% if (success_msg) { %>
-                    <div class="alert alert-success">
-                        <%= success_msg %>
-                    </div>
-                <% } %>
-                <!-- Error Message -->
-                <% if (error_msg) { %>
-                    <div class="alert alert-danger">
-                        <%= error_msg %>
-                    </div>
-                <% } %>
                 <div class="mb-3">
                     <label for="email" class="form-label">Email address</label>
                     <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email" required>
